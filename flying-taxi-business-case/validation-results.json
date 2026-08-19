@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "expected": {
+    "taxi_records": 1048468,
+    "taxi_unique_ids": 1048468,
+    "quality_records": 1031441,
+    "survey_records": 500,
+    "survey_valid_q8": 499,
+    "survey_willing": 400,
+    "deck_slides": 49
+  },
+  "observed": {
+    "taxi_records": 1048468,
+    "taxi_unique_ids": 1048468,
+    "quality_records": 1031441,
+    "survey_records": 500,
+    "survey_valid_q8": 499,
+    "survey_willing": 400,
+    "deck_slides": 49
+  },
+  "checks": {
+    "taxi_records": true,
+    "taxi_unique_ids": true,
+    "quality_records": true,
+    "survey_records": true,
+    "survey_valid_q8": true,
+    "survey_willing": true,
+    "deck_slides": true,
+    "deck_placeholders_removed": true,
+    "required_analysis_outputs_exist": true
+  },
+  "placeholder_slides": [],
+  "missing_outputs": []
+}
