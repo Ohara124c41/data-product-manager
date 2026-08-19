@@ -20,13 +20,15 @@ The fare is a historical 2016 TLC proxy, not an observed fare. The program uses
 an official NYC Open Data NTA GeoJSON as a third-party spatial overlay and
 records the 2016/2020 boundary-year mismatch as a limitation.
 
-Run the independent package checks after building the deck:
+Run the independent package checks after building the deck. The `--pptx` path
+is a local editable presentation input; editable Office files are deliberately
+not included in this repository.
 
 ```bash
 python flyber-analysis-source/validate_deliverables.py \
   --taxi upload/taxi_rides.csv \
   --survey upload/user-research.csv \
   --output-dir flyber-analysis-output \
-  --pptx deliverables/flyber-mvp-launch-strategy-proposal-final.pptx \
+  --pptx /path/to/local-presentation.pptx \
   --report deliverables/validation-results.json
 ```

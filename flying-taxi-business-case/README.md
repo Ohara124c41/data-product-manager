@@ -112,7 +112,5 @@ Select an image to view it at full size.
 ## Files
 
 - [Midterm analysis (PDF)](midterm/flyber-mvp-launch-strategy-proposal-midterm.pdf)
-- [Midterm analysis (PowerPoint)](midterm/flyber-mvp-launch-strategy-proposal-midterm.pptx)
 - [Final launch-strategy proposal (PDF)](final/flyber-mvp-launch-strategy-proposal-final.pdf)
-- [Final launch-strategy proposal (PowerPoint)](final/flyber-mvp-launch-strategy-proposal-final.pptx)
 - [Analysis source and validation materials](app/)
