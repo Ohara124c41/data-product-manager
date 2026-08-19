@@ -1,0 +1,3 @@
+# Keep editable office source files local; publish portable PDFs and visual assets.
+*.pptx
+*.docx
